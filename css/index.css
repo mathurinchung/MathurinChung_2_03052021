@@ -254,6 +254,115 @@ header nav ul li:hover {
     font-size: .8vw;
 }
 
+@media screen and (max-width: 992px) {
+    main {
+        width: 100%;
+    }
+
+    #search {
+        margin: auto;
+        padding-top: 4%;
+        padding-bottom: 10%;
+        width: 90%;
+        font-size: 4.3vw;
+    }
+
+    #search h1 {
+        margin-bottom: 4%;
+        font-size: 6vw;
+    }
+
+    #search h2 {
+        font-size: 4.3vw;
+        font-weight: 400;
+    }
+
+    #search form {
+        margin-top: 11%;
+    }
+
+    .form-input {
+        flex-wrap: nowrap;
+    }
+
+    .form-input label {
+        border-top-left-radius: 32%;
+        border-bottom-left-radius: 32%;
+        min-width: 13vw;
+        height: 13vw;
+        background-color: #f2f2f2;
+        font-size: 4.5vw;
+    }
+
+    .form-input input {
+        padding-left: 1.2vw;
+        min-width: calc(100% - 28vw);
+        font-size: 4.5vw;
+        font-weight: 700;
+    }
+
+    .form-input button {
+        position: relative;
+        left: -2.5vw;
+        border-radius: 35%;
+        padding: 0 4.5vw;
+        font-size: 4.5vw;
+    }
+
+    .form-input .button-text {
+        display: none;
+    }
+
+    .form-input .button-icon {
+        display: inline-block;
+    }
+
+    .form-filter {
+        margin-top: 10%;
+    }
+
+    .form-filter h3 {
+        margin-left: 1%;
+        margin-bottom: 5%;
+        width: 100%;
+        font-size: 4.7vw;
+    }
+
+    .form-filter button {
+        margin-right: 3vw;
+        margin-bottom: 2vh;
+        border: .7vw solid #dcdcdc;
+        border-radius: 13vw;
+        height: 13vw;
+        font-size:4.5vw;
+    }
+
+    .form-filter .button-icon {
+        position: relative;
+        left: -1vw;
+        border-radius: 100%;
+        min-width: 13vw;
+        height: 13vw;
+    }
+
+    .form-filter .button-text {
+        margin: 0 4vw 0 1.2vw;
+    }
+
+    .form-info {
+        margin-top: 6%;
+    }
+
+    .form-info .info-icon {
+        margin-right: 3%;
+        border: .5vw solid #dcdcdc;
+        border-radius: 50%;
+        min-width: 6.5vw;
+        height: 6.5vw;
+        font-size: 3vw;
+    }
+}
+
 /* LODGING */
 #lodging {
     display: flex;
