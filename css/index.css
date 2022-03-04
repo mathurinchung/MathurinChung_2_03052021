@@ -732,3 +732,25 @@ footer .container {
 .footer li {
     padding-top: .9vw;
 }
+
+@media screen and (max-width: 992px) {
+    footer .container {
+        display: flex;
+        flex-direction: column;
+        width: 87%;
+        padding-top: 10vw;
+        font-size: 4vw;
+    }
+
+    .footer h3 {
+        margin-top:2vw;
+    }
+
+    .footer li {
+        padding-top: 3vw;
+    }
+
+    .footer {
+        margin-bottom: 7vw;
+    }
+}
