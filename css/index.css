@@ -676,6 +676,43 @@ header nav ul li:hover {
     grid-column: 4 / 5;
 }
 
+@media screen and (max-width: 992px) {
+    #activities {
+        display: flex;
+        flex-direction: column;
+        padding: 0 5.5% 30px;
+    }
+
+    #activities h2 {
+        margin-bottom: 9vw;
+        font-size: 6vw;
+    }
+
+    .card-activity {
+        margin-bottom: 8vw;
+        border-radius: 5vw;
+        width: 100%;
+        height: 50vw;
+        box-shadow: 0 2vw 15vw #0000001a;
+    }
+
+    .card-activity img {
+        border-top-right-radius: 5vw;
+        border-top-left-radius: 5vw;
+        height: calc(100% - 16vw);
+    }
+
+    .card-activity figcaption {
+        width: 100%;
+        min-height: 16vw;
+    }
+
+    .card-activity h3 {
+        padding-top: 7%;
+        font-size: 4vw;
+    }
+}
+
 /* FOOTER */
 footer {
     background-color: #f2f2f2;
