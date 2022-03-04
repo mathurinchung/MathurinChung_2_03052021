@@ -22,11 +22,14 @@ ul {
     list-style: none;
 }
 
+header, main {
+    margin: auto;
+    width: 92.65%;
+}
+
 /* HEADER */
 header {
     display: flex;
-    margin: auto;
-    width: 92.65%;
 }
 
 header img {
@@ -66,4 +69,133 @@ header nav ul li:hover {
     margin: 3.65% 1.75% 0;
     font-weight: 700;
     color: #0065fc;
+}
+
+/* SEARCH */
+#search {
+    padding-top: 1.7%;
+    padding-bottom: 2.7%;
+}
+
+#search h1 {
+    margin-bottom: .6%;
+    font-size: 1.55vw;
+}
+
+#search h2 {
+    font-size: 1.12vw;
+    font-weight: 400;
+}
+
+#search form {
+    margin-top: 1.45%;
+}
+
+.form-input, .form-filter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-input label, .form-filter button, .form-filter .button-icon, .form-info .info-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-input label, .form-input input {
+    border: 1px solid #f2f2f2;
+}
+
+.form-input label {
+    border-top-left-radius: 32%;
+    border-bottom-left-radius: 32%;
+    min-width: 3.5vw;
+    height: 3.5vw;
+    background-color: #f2f2f2;
+    font-size: 1.25vw;
+}
+
+.form-input input {
+    padding-left: 1.2vw;
+    font-size: 1.3vw;
+    font-weight: 700;
+}
+
+.form-input input::placeholder {
+    opacity: .97;
+}
+
+.form-input button {
+    border: 1px solid #0065fc;
+    border-top-right-radius: 1.2vw;
+    border-bottom-right-radius: 1.2vw;
+    padding: 0 1.25vw;
+    background-color: #0065fc;
+    color: #fff;
+    font-size: 1.25vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form-input .button-icon {
+    display: none;
+}
+
+.form-filter {
+    align-items: center;
+    margin-top: 2.2vw;
+}
+
+.form-filter h3 {
+    margin-left: .6vw;
+    margin-right: 2.3vw;
+    font-size: 1.3vw;
+}
+
+.form-filter button {
+    margin-right: 1.7vw;
+    border: .15vw solid #dcdcdc;
+    border-radius: 3.5vw;
+    height: 3.5vw;
+    background-color: #fff;
+    font-size: 1.3vw;
+    font-weight: 700;
+    cursor: pointer;
+    transition: border 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.form-filter button:hover {
+    background-color: #deebff;
+}
+
+.form-filter .button-icon {
+    position: relative;
+    left: -.15vw;
+    border-radius: 3.5vw;
+    min-width: 3.5vw;
+    height: 3.5vw;
+    background-color: #deebff;
+    color: #0065fc;
+}
+
+.form-filter .button-text {
+    margin: 0 1.5vw 0 .7vw;
+}
+
+.form-info {
+    display: flex;
+    align-items: baseline;
+    margin-top: 2.6%;
+}
+
+.form-info .info-icon {
+    margin-left: .5%;
+    margin-right: .8%;
+    border: .1vw solid #dcdcdc;
+    border-radius: 50%;
+    min-width: 1.7vw;
+    height: 1.7vw;
+    color: #0065fc;
+    font-size: .8vw;
 }
