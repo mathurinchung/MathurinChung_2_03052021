@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
 @import url(normalize.css);
 
-/*  TODO: rechercher les valeurs identiques et les rassembler 
- *  TODO: réduire les imbrications selecteurs
- */
-
 /* GLOBAL */
 :root {
   --primary-color: #0065fc;
@@ -386,19 +382,19 @@ header li:hover {
   }
 }
 
-/* LODGING */
-#lodging {
+/* ACCOMMODATION */
+#accommodation {
   display: flex;
   justify-content: space-between;
   padding-bottom: 4.2vw;
 }
 
-.lodging {
+.accommodation {
   border-radius: 1.5vw;
   background-color: var(--tertiary-color);
 }
 
-.lodging h2 {
+.accommodation h2 {
   font-size: 1.5vw;
   margin-bottom: 1.7vw;
 }
@@ -523,16 +519,16 @@ header li:hover {
 }
 
 @media screen and (max-width: 992px) {
-  #lodging {
+  #accommodation {
     flex-direction: column-reverse;
   }
 
-  .lodging {
+  .accommodation {
     border-radius: 0;
     width: 100%;
   }
 
-  .lodging h2 {
+  .accommodation h2 {
     font-size: 6vw;
     margin-bottom: 7vw;
   }
